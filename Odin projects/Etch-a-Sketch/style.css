@@ -1,0 +1,45 @@
+.input_class {
+        align-self: center;
+}
+
+input {
+        width: 80px;
+        align-self: center;
+}
+
+.grid {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        gap: 30px;
+}
+
+.grids {
+        display: grid;
+        grid-template-columns: repeat(16, 1fr);
+        grid-template-rows: repeat(16, 1fr);
+        grid-gap: 2px;
+        border: 1px solid #000;
+        width: 600px;
+        height: 600px;
+        padding: auto;
+        margin: auto;
+}
+
+.cell {
+        /* background-color: #e0e0e0 #a3eacd; */
+        background-color: #e0e0e0;
+        border: 1px solid #000;
+        /* transition: background-color 0.5s ease, transform 0.3s ease; */
+}
+
+button:hover {
+        background-color: #ffc107;
+}
+/* .cell:hover {
+        background-color: #ffc107;
+}
+
+.cell:active {
+        background-color: #ffc107;
+} */
